@@ -1,0 +1,33 @@
+.body{
+    display: flex;
+    flex-direction: row;
+}
+.task{
+    color: yellow;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 5px;
+
+}
+.task:hover{
+    cursor: pointer;
+}
+.task .title{
+
+    font-weight: 600;
+    padding-right: 20px;
+    width: 100px;
+  
+}
+.task .desc{
+    width: 190px;
+    color: black;
+}
+.btn{
+    border-radius: 50%;
+    background-color: maroon;
+}
+.btn:hover{
+    background-color: red;
+    cursor: pointer;
+}
